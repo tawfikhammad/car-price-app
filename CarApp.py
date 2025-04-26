@@ -8,7 +8,7 @@ model = joblib.load('rf_model.sav')
 # Build Streamlit
 st.cache_data.clear()
 st.title('Car Price Predection 🚗💵')
-st.image("design.jpg",use_column_width=True)
+st.image("design.jpg",use_container_width =True)
 
 list_Cars = ['Maruti', 'Skoda', 'Honda', 'Hyundai', 'Toyota', 'Ford', 'Renault',
        'Mahindra', 'Tata', 'Chevrolet', 'Datsun', 'Jeep', 'Mercedes-Benz',
